@@ -1,5 +1,6 @@
 [Unit]
 Description=R710 fan control
+Wants=ipmi.service ipmievd.service
 
 [Service]
 Type=simple
